@@ -35,7 +35,7 @@ def main():
                 flag = flag
             guess = guess + flag
         elif guess == secret_number:
-           # os.system("clear")
+            os.system("clear")
             print("Correct answer on the ", x, "try!")
             print("The secret number is", secret_number)
             break
